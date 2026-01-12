@@ -225,4 +225,3 @@ This project uses:
 
 ## Author
 MEMON IRFANULLAH
-DeltaX AI Engineer Assignment Submission
