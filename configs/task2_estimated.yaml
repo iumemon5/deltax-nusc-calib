@@ -1,0 +1,15 @@
+dataroot: ../nuScenes_mini
+version: v1.0-mini
+intrinsics_csv: deliverables/task1/intrinsics_est.csv
+sample_token: ""
+out_dir: deliverables/task2
+format: ply
+pixel_stride: 2
+voxel: 0.05
+device: cuda
+depth_method: depth_anything
+depth_model: ""
+scale_depth_with_lidar: true
+max_depth: 50.0
+use_gt_intrinsics: false
+min_depth: 0.5

@@ -1,0 +1,31 @@
+dataroot: ../nuScenes_mini
+version: v1.0-mini
+n_frames_per_cam: 120
+stride: 2
+scale: 1.0
+init_mode: heuristic
+init_fov_deg: 90.0
+init_fov_map:
+  CAM_FRONT: 65.0
+  CAM_FRONT_LEFT: 65.0
+  CAM_FRONT_RIGHT: 65.0
+  CAM_BACK_LEFT: 65.0
+  CAM_BACK_RIGHT: 65.0
+  CAM_BACK: 90.0
+max_lidar_points: 30000
+batch_frames: 4
+iters: 1000
+lr: 0.01
+edge_weight: 1.0
+depth_weight: 0.0
+pp_weight: 40.0
+aspect_weight: 0.5
+f_prior_weight: 5.0
+focal_scale_max: 2.5
+pp_range: 0.03
+pp_center_x: 0.5
+pp_center_y: 0.575
+device: cuda
+seed: 0
+save_overlays: false
+out_csv: deliverables/task1/intrinsics_est.csv
